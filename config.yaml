@@ -1,0 +1,13 @@
+output_strategy: redis
+
+console: {}
+
+kafka:
+  bootstrap_servers: "localhost:9092"
+  topic: "police_incidents"
+
+redis:
+  host: "localhost"
+  port: 6379
+  db: 0
+  channel: "police_incidents"
